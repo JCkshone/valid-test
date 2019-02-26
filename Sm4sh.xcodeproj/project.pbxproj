@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE5EC983222105AF00F3011B /* Extensions+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5EC982222105AF00F3011B /* Extensions+UIView.swift */; };
+		EE5EC9852222185600F3011B /* PageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5EC9842222185600F3011B /* PageCell.swift */; };
+		EE76708D2222494100FAE3F9 /* DetailGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE76708C2222494100FAE3F9 /* DetailGameViewController.swift */; };
+		EE77340B22230F52009CA7E2 /* HeaderActionsDetailGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE77340A22230F52009CA7E2 /* HeaderActionsDetailGame.swift */; };
+		EE77340D22232000009CA7E2 /* HeaderText.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE77340C22232000009CA7E2 /* HeaderText.swift */; };
 		EE9ADE8F222080850090D78B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9ADE8E222080850090D78B /* AppDelegate.swift */; };
 		EE9ADE91222080850090D78B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9ADE90222080850090D78B /* ViewController.swift */; };
 		EE9ADE94222080850090D78B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE9ADE92222080850090D78B /* Main.storyboard */; };
@@ -14,6 +19,9 @@
 		EE9ADE99222080870090D78B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE9ADE97222080870090D78B /* LaunchScreen.storyboard */; };
 		EE9ADEA4222080870090D78B /* Sm4shTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9ADEA3222080870090D78B /* Sm4shTests.swift */; };
 		EE9ADEAF222080870090D78B /* Sm4shUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9ADEAE222080870090D78B /* Sm4shUITests.swift */; };
+		EE9ADEC42220E3CC0090D78B /* SwipeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9ADEC32220E3CC0090D78B /* SwipeItem.swift */; };
+		EE9ADEC62220EA1D0090D78B /* SwipingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9ADEC52220EA1D0090D78B /* SwipingController.swift */; };
+		EEAD21922223655900D4C326 /* SettingFilterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAD21912223655900D4C326 /* SettingFilterController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EE5EC982222105AF00F3011B /* Extensions+UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions+UIView.swift"; sourceTree = "<group>"; };
+		EE5EC9842222185600F3011B /* PageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageCell.swift; sourceTree = "<group>"; };
+		EE76708C2222494100FAE3F9 /* DetailGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailGameViewController.swift; sourceTree = "<group>"; };
+		EE77340A22230F52009CA7E2 /* HeaderActionsDetailGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderActionsDetailGame.swift; sourceTree = "<group>"; };
+		EE77340C22232000009CA7E2 /* HeaderText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderText.swift; sourceTree = "<group>"; };
 		EE9ADE8B222080850090D78B /* Sm4sh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sm4sh.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE9ADE8E222080850090D78B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE9ADE90222080850090D78B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +60,9 @@
 		EE9ADEAA222080870090D78B /* Sm4shUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Sm4shUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE9ADEAE222080870090D78B /* Sm4shUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sm4shUITests.swift; sourceTree = "<group>"; };
 		EE9ADEB0222080870090D78B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE9ADEC32220E3CC0090D78B /* SwipeItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeItem.swift; sourceTree = "<group>"; };
+		EE9ADEC52220EA1D0090D78B /* SwipingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipingController.swift; sourceTree = "<group>"; };
+		EEAD21912223655900D4C326 /* SettingFilterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingFilterController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +90,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EE5EC9812221059200F3011B /* Extensiones */ = {
+			isa = PBXGroup;
+			children = (
+				EE5EC982222105AF00F3011B /* Extensions+UIView.swift */,
+			);
+			path = Extensiones;
+			sourceTree = "<group>";
+		};
 		EE9ADE82222080850090D78B = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +121,10 @@
 		EE9ADE8D222080850090D78B /* Sm4sh */ = {
 			isa = PBXGroup;
 			children = (
+				EE5EC9812221059200F3011B /* Extensiones */,
+				EE9ADEC22220E3AB0090D78B /* Model */,
+				EE9ADEBD2220E0170090D78B /* Controllers */,
+				EE9ADEBC2220DE970090D78B /* Views */,
 				EE9ADE8E222080850090D78B /* AppDelegate.swift */,
 				EE9ADE90222080850090D78B /* ViewController.swift */,
 				EE9ADE92222080850090D78B /* Main.storyboard */,
@@ -123,6 +151,34 @@
 				EE9ADEB0222080870090D78B /* Info.plist */,
 			);
 			path = Sm4shUITests;
+			sourceTree = "<group>";
+		};
+		EE9ADEBC2220DE970090D78B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EE5EC9842222185600F3011B /* PageCell.swift */,
+				EE77340A22230F52009CA7E2 /* HeaderActionsDetailGame.swift */,
+				EE77340C22232000009CA7E2 /* HeaderText.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		EE9ADEBD2220E0170090D78B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EE9ADEC52220EA1D0090D78B /* SwipingController.swift */,
+				EE76708C2222494100FAE3F9 /* DetailGameViewController.swift */,
+				EEAD21912223655900D4C326 /* SettingFilterController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		EE9ADEC22220E3AB0090D78B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EE9ADEC32220E3CC0090D78B /* SwipeItem.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +312,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE5EC983222105AF00F3011B /* Extensions+UIView.swift in Sources */,
+				EE9ADEC42220E3CC0090D78B /* SwipeItem.swift in Sources */,
+				EEAD21922223655900D4C326 /* SettingFilterController.swift in Sources */,
 				EE9ADE91222080850090D78B /* ViewController.swift in Sources */,
+				EE76708D2222494100FAE3F9 /* DetailGameViewController.swift in Sources */,
 				EE9ADE8F222080850090D78B /* AppDelegate.swift in Sources */,
+				EE5EC9852222185600F3011B /* PageCell.swift in Sources */,
+				EE9ADEC62220EA1D0090D78B /* SwipingController.swift in Sources */,
+				EE77340B22230F52009CA7E2 /* HeaderActionsDetailGame.swift in Sources */,
+				EE77340D22232000009CA7E2 /* HeaderText.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

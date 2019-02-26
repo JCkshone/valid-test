@@ -7,3 +7,10 @@
 //
 
 import Foundation
+import UIKit
+
+struct SwipeItem {
+    let imageName:String
+    let description:String
+    let buttonType:Int
+}
